@@ -5,3 +5,13 @@ array.each do |int|
         puts int
     end
 end
+
+def under_60 (list)
+    list.each do |num|
+        if num < 60
+            puts num
+        end
+    end
+end
+
+under_60(array)
